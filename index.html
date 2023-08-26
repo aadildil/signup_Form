@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">header</a>
+
+        <div class="main-buttons">
+            <button id="headerSignUp">Signup</button>
+            <button id="profileButton">Profile</button>
+        </div>
+    </header>
+    <!-- signup page -->
+    <div class="container">
+        <p class="title">Signup</p>
+        <form action="" id="signUpForm">
+            <input type="text" id="fullName" placeholder="Full Name" class="inputItems" required>
+            <input type="email" id="email" placeholder="Email" class="inputItems" required>
+            <input type="password" id="password" placeholder="Password" class="inputItems" required>
+            <input type="password" id="confirmPassword" placeholder="Confirm password" class="inputItems" required>
+            <div ><p id="error"></p></div>
+            <div ><p id="success"></p></div>
+            <button type="submit" id="signUpButton">Sign up</button>
+        </form>
+      
+    </div>
+   <!-- profile-page -->
+   <div class="profile-container">
+     <p class="profile-title">Profile</p>
+
+     <div class="user-data">
+        <p class="profileName data">name:biju jaccuzzzi</p>
+        <p class="profileEmail data">email :biju68@gmail.com</p>
+        <p class="profilePassword data">password: hahahahhha</p>
+     </div>
+     <button id="logOutButton">Logout</button>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
